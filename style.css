@@ -1,0 +1,48 @@
+body {
+    height: 100vh;
+    font-size: 25px;
+    font-family: sans-serif;
+    background-color: rgb(223, 176, 176);
+  }
+.titulo{
+    background-color: #e79494;
+    color:#6e0b0b;
+    border:1px solid #751c1c;
+    border-radius: 1.2rem;
+    font-size: 30px;
+    padding: 0.5rem;
+    margin-top: 15px;
+}
+input[type=file] {
+    background-color: hsl(0, 63%, 87%);
+    border-radius: 5px;
+}
+input[name=file] {
+    border: 1px solid hsl(0, 67%, 33%);
+    text-align: center;
+    padding: 10px;
+    color: rgb(105, 16, 16);
+}
+.principal{
+    background-color: #e09f9f;
+    width: 40rem;
+    height: auto;
+    margin: auto;
+    padding: 2rem;
+    border-radius: 2rem;
+  }
+.botones {
+    background-color:  hsl(0, 63%, 87%);
+    color:#6e0b0b;
+    border:1px solid #751c1c;
+    border-radius: 5px;
+    font-size: 16px;
+    padding: 0.5rem;
+    margin-top: 15px;
+    display: flex;
+  }
+  .botones:focus {
+    background: #eeb2b2;
+    color: white;
+    transition: all .3s ease-in;
+}

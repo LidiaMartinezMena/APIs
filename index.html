@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <script src="script.js"></script>
+
+        <title>API Media Source</title>
+    </head>
+    <body>
+        <div id="principal" class="principal">
+            <center>
+                <div>
+                    <h3 class="titulo">Seleccione su archivo</h3>
+                    <label for="file"></label>
+                    <input type="file" class="select-video" id="file" name="file" accept="video/*" onchange="handleFileSelect(event)" />
+                    <p></p>
+                    <output id="video-output"></output>
+                </div>
+                <div id="botones">
+                    <button class="botones" id="reproducir" onclick="document.getElementById('video').play()" style="display:none"> Reproducir </button>
+                    <button class="botones" id="pausa" onclick="document.getElementById('video').pause()" style="display:none"> Pausa </button>
+                    <button class="botones" id= "subir" onclick="document.getElementById('video').volume += 0.1" style="display:none"> Subir volumen </button>
+                    <button class="botones" id="bajar" onclick="document.getElementById('video').volume -= 0.1" style="display:none"> Bajar volumen</button>
+                </div>
+            </center>
+        </div>
+    </body>
+</html>
+
